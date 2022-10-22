@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search-fillter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" onkeyup="search()" id="myinput" placeholder="Search">
+        <div class="contain">
+            <button type="button" class="btn active" data-id="all">All</button>
+            <button type="button" class="btn" data-id="day">Day</button>
+            <button type="button" class="btn" data-id="lunch">Lunch</button>
+            <button type="button" class="btn" data-id="dinner">Dinner</button>
+        </div>
+
+    </div>
+    <div class="content">
+        <div class="item active day" id="day">
+
+                <img src="images/item-1.jpeg" alt="item1">
+          
+            <div class="title">
+                <h1>Breakfast</h1>
+                <span>Price:$5</span>
+                
+            </div>
+        </div>
+        <div class="item dinner" id="lunch">
+            <div class="images">
+                <img src="images/item-2.jpeg" alt="item1">
+            </div>
+            <div class="title">
+                <h1>Lunch</h1>
+                <span>Price:$10</span>
+            </div>
+        </div>
+
+        <div class="item lunch" id="dinner">
+            <div class="images">
+                <img src="images/item-3.jpeg" alt="item1">
+            </div>
+            <div class="title">
+                <h1>Dinner</h1>
+                <span>Price:$3</span>
+            </div>
+        </div>
+
+        <div class="item day " id="day">
+            <div class="images">
+                <img src="images/item-4.jpeg" alt="item1">
+            </div>
+            <div class="title">
+                <h1>Breakfast</h1>
+                <span>Price:$5</span>
+            </div>
+        </div>
+
+        <div class="item  lunch " id="lunch">
+            <div class="images">
+                <img src="images/item-5.jpeg" alt="item1">
+            </div>
+            <div class="title">
+                <h1>Lunch</h1>
+                <span>Price:$10</span>
+            </div>
+        </div>
+        <div class="item dinner " id="dinner">
+            <div class="images">
+                <img src="images/item-5.jpeg" alt="item1">
+            </div>
+            <div class="title">
+                <h1>Dinner</h1>
+                <span>Price:$3</span>
+            </div>
+        </div>
+
+
+    </div>
+
+<article>
+    <button type="button" class="post">random</button>
+    <p class="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quidem. Eos, esse. Natus, iure totam! Quia iure officiis similique, ullam ducimus dignissimos fuga nam sunt, optio inventore officia minus debitis.</p>
+  
+</article><br><br>
+<p class="ragtest">100</p >
+<input type="range" value="100" min="0" max="100" id="range" >
+    <script src="index.js">
+        
+
+    </script>
+</body>
+</html>
